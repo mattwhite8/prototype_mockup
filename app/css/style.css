@@ -1,0 +1,45 @@
+h3 {
+	color: #333;
+	margin-top: 0;
+	margin-bottom: 16px;
+	font-size: 24px;
+	font-family: 'Roboto Bold';
+}
+
+p {
+	color: #333;
+	font-size: 16px;
+	font-family: 'Roboto Regular';
+}
+
+h3 + p {
+	margin-bottom: 32px;
+}
+
+.content {
+	border: solid #E5E5E5;
+	border-width: 1px;
+	padding: 25px;
+}
+
+.well {
+	background-color: #f2f2f2;
+	border-radius: 5px;
+}
+
+.well > p:before {
+	content: url('../icons/ideas.svg');
+	position: absolute;
+	left: 39px;
+}
+
+.well > p {
+	padding: 0;
+	margin: 0 0 0 12px;
+}
+
+.well {
+	padding: 20px;
+}
+
+
