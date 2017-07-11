@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>TEST</title>
+	<title>Assignment 1</title>
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<!-- Owl Carousel -->
@@ -16,7 +16,7 @@
 			<div class="col-md-8 col-md-offset-2">
 				<div class="row">
 					<div class="col-md-6">
-						<img class="img-responsive" src="./img/RemovingSparkPlugs.jpg">
+						<img class="img-responsive main-img" src="./img/RemovingSparkPlugs.jpg">
 					</div>
 					<div class="col-md-6 content">
 						<h3>Disconnect Spark Plugs</h3>
@@ -34,21 +34,61 @@
 						</div>
 						
 						<div class="owl-carousel">
-							<div>
+							<div class="item" style="width:145px">
 								<img class="img-responsive" src="./img/BriggsStratton.jpg">
-								<p>test text</p>
+								<p class="text-center product-title">Briggs &amp; Stratton <br>
+								13/16-in Spark Plug for <br>
+								4-Cycle Engine</p>
+								<a href="#">Get Details ></a>
+								<p class="text-center"><span><img src="./icons/starFull.svg" style="width: inherit; display:inline"></span>
+								<span><img src="./icons/starFull.svg" style="width: inherit; display:inline"></span>
+								<span><img src="./icons/starFull.svg" style="width: inherit; display:inline"></span>
+								<span><img src="./icons/starFull.svg" style="width: inherit; display:inline"></span>
+								<span><img src="./icons/starFull.svg" style="width: inherit; display:inline"></span> (9)</p>
+								<p class="text-center price">$6.18</p>
+								<button class="carousel-button">Add to List</button>
 							</div>
-							<div>
+							<div class="item" style="width:145px">
 								<img class="img-responsive" src="./img/firstFire.jpg">
-								<p>test text</p>
+								<p class="text-center product-title">First Fire 3/4-in Spark <br>
+								Plug for 2-Cycle Engine <br>
+								and 4-Cycle Engine</p>
+								<a href="#">Get Details ></a>
+								<p class="text-center"><span><img src="./icons/starFull.svg" style="width: inherit; display:inline"></span>
+								<span><img src="./icons/starFull.svg" style="width: inherit; display:inline"></span>
+								<span><img src="./icons/starFull.svg" style="width: inherit; display:inline"></span>
+								<span><img src="./icons/starHalf.svg" style="width: inherit; display:inline"></span>
+								<span><img src="./icons/starEmpty.svg" style="width: inherit; display:inline"></span> (10)</p>
+								<p class="text-center price">$2.97</p>
+								<button class="carousel-button">Add to List</button>
 							</div>
-							<div>
+							<div class="item" style="width:145px">
 								<img class="img-responsive" src="./img/BriggsStratton.jpg">
-								<p>test text</p>
+								<p class="text-center product-title">Briggs &amp; Stratton <br>
+								13/16-in Spark Plug for <br>
+								4-Cycle Engine</p>
+								<a href="#">Get Details ></a>
+								<p class="text-center"><span><img src="./icons/starFull.svg" style="width: inherit; display:inline"></span>
+								<span><img src="./icons/starFull.svg" style="width: inherit; display:inline"></span>
+								<span><img src="./icons/starFull.svg" style="width: inherit; display:inline"></span>
+								<span><img src="./icons/starFull.svg" style="width: inherit; display:inline"></span>
+								<span><img src="./icons/starFull.svg" style="width: inherit; display:inline"></span> (9)</p>
+								<p class="text-center price">$6.18</p>
+								<button class="carousel-button">Add to List</button>
 							</div>
-							<div>
+							<div class="item" style="width:145px">
 								<img class="img-responsive" src="./img/firstFire.jpg">
-								<p>test text</p>
+								<p class="text-center product-title">First Fire 3/4-in Spark <br>
+								Plug for 2-Cycle Engine <br>
+								and 4-Cycle Engine</p>
+								<a href="#">Get Details ></a>
+								<p class="text-center"><span><img src="./icons/starFull.svg" style="width: inherit; display:inline"></span>
+								<span><img src="./icons/starFull.svg" style="width: inherit; display:inline"></span>
+								<span><img src="./icons/starFull.svg" style="width: inherit; display:inline"></span>
+								<span><img src="./icons/starHalf.svg" style="width: inherit; display:inline"></span>
+								<span><img src="./icons/starEmpty.svg" style="width: inherit; display:inline"></span> (10)</p>
+								<p class="text-center price">$2.97</p>
+								<button class="carousel-button">Add to List</button>
 							</div>
 						</div>
 
@@ -67,7 +107,6 @@
 		$(document).ready(function(){
 		  $(".owl-carousel").owlCarousel({
 		  	    loop:true,
-			    margin:10,
 			    responsiveClass:true,
 			    navText: ["<img src='./icons/arrow-left-circle.svg'>","<img src='./icons/arrow-right-circle.svg'>"],
 			    responsive:{

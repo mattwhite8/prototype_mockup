@@ -1,3 +1,11 @@
+.container-fluid {
+	margin-top: 3%;
+}
+
+.main-img {
+	margin-top: -2%;
+}
+
 h3 {
 	color: #333;
 	margin-top: 0;
@@ -10,6 +18,22 @@ p {
 	color: #333;
 	font-size: 16px;
 	font-family: 'Roboto Regular';
+}
+
+p.product-title {
+	color: #333;
+	font-size: 14px;
+	font-family: 'Roboto Regular';
+}
+
+a {
+	display: inline-block;
+	margin-left: 22%;
+	margin-bottom: 8px;
+	color: #0471AF;
+	font-size: 14px;
+	font-family: 'Roboto Bold';
+	font-weight: bold;
 }
 
 h3 + p {
@@ -50,6 +74,51 @@ h3 + p {
 	margin: auto !important;
 }
 
+.owl-item {
+	width: 150px;
+}
+
+.item > img {
+	width: inherit;
+	margin-bottom: 8px;
+}
+
+.item > p {
+	margin-bottom: 8px;
+}
+
+p.price {
+	margin-bottom: 16px;
+}
+
+.owl-carousel .owl-prev {
+	left: -3%;
+	top: 35%;
+}
+
+.owl-carousel .owl-next {
+	right: -3%;
+	top: 35%;
+}
+
+.owl-stage-outer {
+	margin-left: 35px;
+}
+
+.carousel-button {
+	width: 145px;
+	height: 40px;
+	color: #fff;
+	background-color: rgba(0,73,144, 1);
+	font-size: 14px;
+	font-family: 'Roboto Regular';
+	border-radius: 100px;
+	padding: 10px 38px;
+}
+
+.carousel-button:hover {
+	background-color: rgba(0,73,144, .9);
+}
 
 
 
