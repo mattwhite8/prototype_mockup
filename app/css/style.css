@@ -42,4 +42,14 @@ h3 + p {
 	padding: 20px;
 }
 
+.owl-carousel .owl-prev,
+.owl-carousel .owl-next {
+	position: absolute;
+	top: 10px;
+	height: 30px;
+	margin: auto !important;
+}
+
+
+
 
