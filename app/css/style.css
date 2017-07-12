@@ -66,6 +66,7 @@ h3 + p {
 	padding: 20px;
 }
 
+/*Carousel Styling*/
 .owl-carousel .owl-prev,
 .owl-carousel .owl-next {
 	position: absolute;
@@ -105,6 +106,7 @@ p.price {
 	margin-left: 35px;
 }
 
+/*Button Styling*/
 .carousel-button {
 	width: 145px;
 	height: 40px;
